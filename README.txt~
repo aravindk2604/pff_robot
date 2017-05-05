@@ -9,16 +9,14 @@
 	- roslaunch pff_simple_robot pff_gazebo.launch
 	- rosrun pff_simple_robot circle_mode.py [radius]
 
-	# radius in meters
+	#radius in meters
 	e.g. rosrun pff_simple_robot circle_mode.py 3.0
 
 3. Square mode:
 	- roslaunch pff_simple_robot pff_gazebo.launch
 	- rosrun pff_simple_robot square_mode.py [side-length]
 	
-	# Use lower velocity because at higher velocities the robot overshoots the corners.
-	# I have not implemented a controller
-	# side-length in meters
+	#side-length in meters
 	e.g. rosrun pff_simple_robot square_mode.py 3.0
 
 Terminate by CTRL-C.
